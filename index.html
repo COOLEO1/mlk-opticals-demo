@@ -1,117 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#173c32">
-  <meta name="description" content="A sample online stationery catalogue concept for Howard's Paperwork, created by Golden-Rhys Company in Malawi.">
-  <title>Howard's Paperwork | Stationery & Office Essentials</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://images.unsplash.com">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#123d2d">
+<meta name="description" content="A proposed online stationery catalogue concept for Howard's Paperwork, designed by Golden-Rhys Company.">
+<title>Howard's Paperwork | The everyday essentials, organised.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="demo-notice"><span class="demo-dot"></span><strong>WEBSITE CONCEPT</strong><span>Prepared by Golden-Rhys Company · Demonstration only, not the official business website</span></div>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Howard's Paperwork home">
-      <span class="brand-mark">H<span>p</span></span>
-      <span class="brand-name"><b>HOWARD'S <i>PAPERWORK</i></b><small>STATIONERY · OFFICE ESSENTIALS</small></span>
-    </a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav class="main-nav" id="nav">
-      <a href="#home">Home</a><a href="#catalogue">Catalogue</a><a href="#business">For businesses</a><a href="#about">About</a>
-      <a class="nav-button" href="#enquiries">Make an enquiry <span>↗</span></a>
-    </nav>
-  </header>
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-copy">
-        <div class="eyebrow"><span></span> YOUR EVERYDAY STATIONERY PARTNER</div>
-        <h1>Everything you need to <em>get things done.</em></h1>
-        <p class="hero-lead">A convenient place to explore stationery, paper products and everyday office essentials for school, work and business.</p>
-        <div class="hero-buttons">
-          <a class="button button-primary" href="#catalogue">Explore the catalogue <span>↓</span></a>
-          <a class="button button-quiet" href="#enquiries">Request product information <span>↗</span></a>
-        </div>
-        <div class="hero-trust"><span class="trust-icon">✳</span><span><b>FOR SCHOOL · OFFICE · BUSINESS</b><small>A sample online catalogue concept for a Malawian stationery supplier</small></span></div>
-      </div>
-      <div class="hero-visual">
-        <div class="hero-image"><img src="https://images.unsplash.com/photo-1517842645767-c639042777db" alt="Stationery and writing materials arranged on a desk" fetchpriority="high"></div>
-        <div class="floating-card"><span class="floating-icon">▤</span><span><b>Browse with ease</b><small>Explore product categories</small></span></div>
-        <div class="hero-stamp">PAPER<br><i>+</i><br>IDEAS</div>
-      </div>
-      <div class="hero-footer"><span>MALAWI</span><span>STATIONERY &nbsp;·&nbsp; PAPER &nbsp;·&nbsp; OFFICE</span><span>HOWARD'S PAPERWORK · DEMO</span></div>
-    </section>
-    <section class="intro section-pad" id="about">
-      <div class="section-kicker">01 <span>/</span> A BETTER WAY TO BROWSE</div>
-      <div class="intro-layout">
-        <h2>Good work starts with the <em>right essentials.</em></h2>
-        <div class="intro-text">
-          <p>This concept presents Howard's Paperwork as a convenient online destination where customers can discover stationery and office supplies before making an enquiry.</p>
-          <p class="soft-copy">The business profile, product range, ordering process and contact details will be finalised using information approved by the Howard's Paperwork team.</p>
-          <a class="inline-link" href="#enquiries">Ask about products <span>↗</span></a>
-        </div>
-      </div>
-    </section>
-    <section class="catalogue section-pad" id="catalogue">
-      <div class="section-top">
-        <div><div class="section-kicker">02 <span>/</span> EXPLORE THE CATALOGUE</div><h2>Essentials for every <em>workspace.</em></h2></div>
-        <p>Illustrative product categories show how customers could browse the range. Actual stock and product details are to be confirmed by the business.</p>
-      </div>
-      <div class="category-grid">
-        <a class="category-card" href="#enquiries"><div class="category-image"><img src="https://images.unsplash.com/photo-1517842645767-c639042777db" alt="Notebooks and writing stationery" loading="lazy"><span>01</span></div><div class="category-info"><div><small>WRITE & ORGANISE</small><h3>Books & notebooks</h3></div><b>↗</b></div></a>
-        <a class="category-card" href="#enquiries"><div class="category-image"><img src="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=80" alt="Pens and writing instruments" loading="lazy"><span>02</span></div><div class="category-info"><div><small>TOOLS FOR IDEAS</small><h3>Pens & stationery</h3></div><b>↗</b></div></a>
-        <a class="category-card" href="#enquiries"><div class="category-image"><img src="https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=900&q=80" alt="Paper and documents" loading="lazy"><span>03</span></div><div class="category-info"><div><small>PRINT & PRESENT</small><h3>Paper & printing</h3></div><b>↗</b></div></a>
-        <a class="category-card" href="#enquiries"><div class="category-image"><img src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=80" alt="Office organisation supplies" loading="lazy"><span>04</span></div><div class="category-info"><div><small>KEEP IT IN ORDER</small><h3>Files & organisation</h3></div><b>↗</b></div></a>
-      </div>
-      <p class="image-disclaimer">Images and categories are illustrative placeholders, not a representation of confirmed stock.</p>
-    </section>
-    <section class="business-feature" id="business">
-      <div class="business-photo"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85" alt="Organised modern office workspace" loading="lazy"></div>
-      <div class="business-copy">
-        <div class="section-kicker light-kicker">03 <span>/</span> FOR SCHOOLS, OFFICES & BUSINESSES</div>
-        <h2>Make sourcing supplies <em>simpler.</em></h2>
-        <p>A well-organised catalogue can help individuals, schools, offices and organisations identify the products they need and send an enquiry without having to search through long lists.</p>
-        <a class="button button-light" href="#enquiries">Enquire about products <span>↗</span></a>
-        <small>Bulk-order options and supply arrangements can be displayed once confirmed by the business.</small>
-      </div>
-    </section>
-    <section class="how section-pad">
-      <div class="how-heading"><div class="section-kicker">04 <span>/</span> SIMPLE CUSTOMER JOURNEY</div><h2>Find it. Ask. <em>Get sorted.</em></h2><p>A straightforward online experience designed around how customers discover products and contact a supplier.</p></div>
-      <div class="steps">
-        <article><span>01</span><div><h3>Browse categories</h3><p>Explore stationery and office essentials in clearly arranged sections.</p></div></article>
-        <article><span>02</span><div><h3>Choose what you need</h3><p>View product descriptions, options and availability when supplied by the business.</p></div></article>
-        <article><span>03</span><div><h3>Send an enquiry</h3><p>Ask about prices, stock, quantities and collection or delivery arrangements.</p></div></article>
-      </div>
-    </section>
-    <section class="enquiry-section section-pad" id="enquiries">
-      <div class="enquiry-copy">
-        <div class="section-kicker">05 <span>/</span> PRODUCT & ORDER ENQUIRIES</div>
-        <h2>Need something for your <em>next project?</em></h2>
-        <p>Imagine a simple enquiry point where customers can ask about products, request a quotation or discuss a larger stationery order.</p>
-        <div class="contact-note"><span>✳</span><div><b>Made for convenient enquiries</b><small>Official phone, WhatsApp, address and opening hours will be added after confirmation.</small></div></div>
-      </div>
-      <form class="enquiry-form" id="enquiryForm">
-        <div class="form-title"><b>PRODUCT ENQUIRY</b><span>✳</span></div>
-        <label for="name">Your name</label><input id="name" name="name" placeholder="Enter your name" required>
-        <label for="phone">Phone number</label><input id="phone" name="phone" type="tel" placeholder="e.g. 09xx xxx xxx" required>
-        <label for="product">What are you looking for?</label><select id="product" name="product" required><option value="">Choose a category</option><option>Books & notebooks</option><option>Pens & stationery</option><option>Paper & printing</option><option>Files & office organisation</option><option>Bulk or business order</option><option>Other product enquiry</option></select>
-        <label for="message">Additional details <span>(optional)</span></label><textarea id="message" name="message" rows="3" placeholder="Tell us what products or quantities you need"></textarea>
-        <button class="button button-primary form-submit" type="submit">Preview enquiry <span>↗</span></button>
-        <p class="form-note">Demonstration only. This form does not send or store personal information.</p><p class="form-message" id="formMessage" role="status"></p>
-      </form>
-    </section>
-  </main>
-  <footer class="site-footer">
-    <div class="footer-main">
-      <a class="brand footer-brand" href="#home"><span class="brand-mark">H<span>p</span></span><span class="brand-name"><b>HOWARD'S <i>PAPERWORK</i></b><small>STATIONERY · OFFICE ESSENTIALS</small></span></a>
-      <p>A sample online catalogue concept<br>created for Howard's Paperwork.</p><a class="back-top" href="#home">Back to top ↑</a>
-    </div>
-    <div class="footer-bottom"><span>© 2026 HOWARD'S PAPERWORK · DEMO CONCEPT</span><span>Website concept by <b>Golden-Rhys Company</b></span></div>
-    <div class="photo-credit">Illustrative photography from Unsplash. Product imagery is for concept presentation only.</div>
-  </footer>
-  <script src="script.js"></script>
-</body>
-</html>
+<div class="concept-bar"><span class="pulse"></span><span>WEBSITE CONCEPT</span><i></i><span>Prepared for Howard's Paperwork by Golden-Rhys Company</span><span class="concept-right">A proposed digital storefront · Malawi</span></div>
+<header class="header">
+ <a class="logo" href="#top" aria-label="Howard's Paperwork home"><span class="logo-symbol"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M5 9c8-1 14 2 19 8v25C18 35 12 32 5 33V9Z" fill="#c7e75a"/><path d="M43 9c-8-1-14 2-19 8v25c6-7 12-10 19-9V9Z" fill="#fff"/><path d="M24 17v25" stroke="#123d2d" stroke-width="2"/></svg></span><span class="logo-type">howard's<span>paperwork.</span></span></a>
+ <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+ <nav class="nav" id="nav"><a class="active" href="#top">Home</a><a href="#departments">Departments</a><a href="#essentials">Popular essentials</a><a href="#business">For organisations</a><a href="#story">Our approach</a></nav>
+ <a class="header-cta" href="#enquire">Talk to us <span>↗</span></a>
+</header>
+<main id="top">
+<section class="hero">
+ <div class="hero-bg"></div><div class="hero-grain"></div>
+ <div class="hero-content">
+  <div class="eyebrow"><span class="eyebrow-line"></span> THE EVERYDAY ESSENTIALS, ORGANISED.</div>
+  <h1>Make room<br>for <em>great ideas.</em></h1>
+  <p class="hero-desc">From the first page of a school notebook to the tools that keep an office moving — discover a more organised way to shop stationery.</p>
+  <div class="hero-actions"><a class="btn btn-lime" href="#departments">Explore departments <span>↘</span></a><a class="text-link" href="#enquire">Enquire about a product <span>↗</span></a></div>
+  <div class="hero-note"><span class="note-icon">✳</span><span><b>FOR LEARNING. FOR WORK. FOR WHAT'S NEXT.</b><small>A proposed online catalogue experience for customers in Malawi.</small></span></div>
+ </div>
+ <div class="hero-art" aria-label="Stationery still life"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-label label-top">IDEAS<br>START HERE</div><div class="art-photo"><img src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=1100&q=88" alt="Open notebook and stationery on a desk"></div><div class="art-card"><span class="art-card-icon">✎</span><span><b>Ready for the next idea?</b><small>Find the essentials that help it happen.</small></span></div><div class="art-index">HP / 01</div></div>
+ <div class="hero-bottom"><span>HOWARD'S PAPERWORK</span><span>STATIONERY / PAPER / OFFICE</span><span>CONCEPT 2026</span></div>
+</section>
+<section class="intro section-wrap" id="story"><div class="intro-aside"><span class="section-no">01 / THE IDEA</span><div class="vertical-word">PAPERWORK</div></div><div class="intro-main"><p class="overline">A SMALL DETAIL MAKES A BIG DIFFERENCE</p><h2>Everything in its place.<br><em>Every idea in motion.</em></h2><div class="intro-bottom"><p>This concept imagines Howard's Paperwork as a clear, easy-to-use online destination for stationery and office essentials — helping customers discover what they need before getting in touch.</p><a href="#departments" class="round-link" aria-label="Explore departments">↓</a></div></div></section>
+<section class="departments section-wrap" id="departments"><div class="section-heading"><div><span class="section-no">02 / BROWSE BY NEED</span><h2>Find your <em>department.</em></h2></div><p>A simple way to move from a broad need to the right product category.</p></div>
+ <div class="dept-grid">
+  <a class="dept dept-large" href="#enquire" data-category="Books & learning"><img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=1100&q=85" alt="Books and reading materials"><span class="dept-number">01</span><span class="dept-overlay"><small>LEARN / READ / REVISE</small><b>Books & learning</b><i>Explore category ↗</i></span></a>
+  <a class="dept" href="#enquire" data-category="Notebooks & paper"><img src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85" alt="Notebook and paper"><span class="dept-number">02</span><span class="dept-overlay"><small>PLAN / WRITE / RECORD</small><b>Notebooks & paper</b><i>Explore category ↗</i></span></a>
+  <a class="dept" href="#enquire" data-category="Pens & writing tools"><img src="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=85" alt="Pens and writing tools"><span class="dept-number">03</span><span class="dept-overlay"><small>SKETCH / SIGN / CREATE</small><b>Pens & writing tools</b><i>Explore category ↗</i></span></a>
+  <a class="dept" href="#enquire" data-category="Office organisation"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85" alt="Organised office workspace"><span class="dept-number">04</span><span class="dept-overlay"><small>FILE / SORT / WORK</small><b>Office organisation</b><i>Explore category ↗</i></span></a>
+  <a class="dept dept-accent" href="#enquire" data-category="Printing & business supplies"><span class="accent-mark">✳</span><small>FOR THE BIGGER TO-DO LIST</small><b>Printing &<br>business supplies.</b><i>Ask about your requirements ↗</i></a>
+ </div><p class="disclaimer">Department names and photography are illustrative. The final catalogue will reflect Howard's confirmed products and services.</p>
+</section>
+<section class="essentials section-wrap" id="essentials"><div class="section-heading"><div><span class="section-no">03 / THE EVERYDAY EDIT</span><h2>Little things.<br><em>Big difference.</em></h2></div><p>Example product groupings to show how visitors could explore the catalogue. No stock or prices are implied.</p></div>
+ <div class="essentials-grid">
+  <article class="essential-card"><div class="essential-visual visual-paper"><span class="visual-tag">THE STUDY DESK</span><img src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=700&q=85" alt="Notebook and study stationery"></div><div class="essential-meta"><span>01 / PLAN YOUR PAGE</span><h3>Notebooks & exercise books</h3><a href="#enquire" data-product="Notebooks & exercise books">Ask about this range ↗</a></div></article>
+  <article class="essential-card"><div class="essential-visual visual-pens"><span class="visual-tag">THE WRITING KIT</span><img src="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=700&q=85" alt="Writing instruments"></div><div class="essential-meta"><span>02 / PUT IT IN WORDS</span><h3>Pens & writing tools</h3><a href="#enquire" data-product="Pens & writing tools">Ask about this range ↗</a></div></article>
+  <article class="essential-card"><div class="essential-visual visual-office"><span class="visual-tag">THE WORKSPACE</span><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=85" alt="Office workspace"></div><div class="essential-meta"><span>03 / KEEP IT MOVING</span><h3>Office essentials</h3><a href="#enquire" data-product="Office essentials">Ask about this range ↗</a></div></article>
+ </div>
+</section>
+<section class="business" id="business"><div class="business-image"><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=85" alt="Collaborative office workspace"></div><div class="business-copy"><span class="section-no light">04 / MORE THAN A SHOPPING LIST</span><p class="overline light">FOR SCHOOLS · OFFICES · ORGANISATIONS</p><h2>Need supplies<br>for the <em>whole team?</em></h2><p>A dedicated bulk-enquiry journey can help schools, offices and organisations describe what they need and request a conversation about larger orders.</p><a class="btn btn-lime" href="#enquire" data-category="Bulk or organisational enquiry">Make a bulk enquiry <span>↗</span></a><small>Bulk availability, pricing and delivery terms would be confirmed by the business.</small></div></section>
+<section class="enquiry section-wrap" id="enquire"><div class="enquiry-copy"><span class="section-no">05 / START A CONVERSATION</span><h2>What are you<br>looking <em>for?</em></h2><p>Use this sample enquiry form to show how customers could ask about a product, request a quotation or discuss a larger order.</p><div class="enquiry-promise"><span>✳</span><div><b>Clear questions. Easier enquiries.</b><small>The final website can connect enquiries to the business's approved phone or WhatsApp contact.</small></div></div></div>
+ <form class="enquiry-form" id="enquiryForm"><div class="form-head"><b>PRODUCT ENQUIRY</b><span>HOWARD'S / HP</span></div><label for="customer">Your name</label><input id="customer" name="customer" placeholder="e.g. John Banda" required><label for="interest">What do you need?</label><select id="interest" name="interest" required><option value="">Choose a category</option><option>Books & learning</option><option>Notebooks & paper</option><option>Pens & writing tools</option><option>Office organisation</option><option>Printing & business supplies</option><option>Bulk or organisational enquiry</option><option>Something else</option></select><label for="details">A few details <span>OPTIONAL</span></label><textarea id="details" name="details" rows="3" placeholder="Product, quantity or question..."></textarea><button class="btn btn-dark" type="submit">Preview enquiry <span>↗</span></button><p class="form-note" id="formNote">Demonstration form only — it does not send or store personal information.</p></form>
+</section>
+</main>
+<footer class="footer"><div class="footer-main"><a class="logo footer-logo" href="#top"><span class="logo-symbol"><svg viewBox="0 0 48 48"><path d="M5 9c8-1 14 2 19 8v25C18 35 12 32 5 33V9Z" fill="#c7e75a"/><path d="M43 9c-8-1-14 2-19 8v25c6-7 12-10 19-9V9Z" fill="#fff"/></svg></span><span class="logo-type">howard's<span>paperwork.</span></span></a><p>A proposed online catalogue concept<br>for a Malawian stationery supplier.</p><a href="#top" class="back-top">Back to top ↑</a></div><div class="footer-bottom"><span>© 2026 HOWARD'S PAPERWORK · CONCEPT PREVIEW</span><span>Designed by <b>Golden-Rhys Company</b></span></div><p class="footer-disclaimer">This is an independent demonstration concept, not the official business website. Business details, products, prices, contact information and imagery require confirmation.</p></footer>
+<script src="script.js"></script>
+</body></html>
