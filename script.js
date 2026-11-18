@@ -1,13 +1,5 @@
-const menuToggle=document.getElementById("menuToggle");
-const nav=document.getElementById("nav");
-menuToggle.addEventListener("click",()=>{const open=nav.classList.toggle("open");menuToggle.setAttribute("aria-expanded",String(open));menuToggle.textContent=open?"×":"☰";});
-nav.querySelectorAll("a").forEach(link=>link.addEventListener("click",()=>{nav.classList.remove("open");menuToggle.setAttribute("aria-expanded","false");menuToggle.textContent="☰";}));
-document.getElementById("enquiryForm").addEventListener("submit",event=>{
- event.preventDefault();
- const name=document.getElementById("name").value.trim();
- const phone=document.getElementById("phone").value.trim();
- const product=document.getElementById("product").value;
- const message=document.getElementById("message").value.trim();
- if(!name||!phone||!product)return;
- document.getElementById("formMessage").textContent="Thank you, "+name+". This is a demonstration only; no enquiry has been sent or stored. The finished website can connect this form to the business's approved contact channel.";
-});
+const menuBtn=document.getElementById("menuBtn");const nav=document.getElementById("nav");
+menuBtn.addEventListener("click",()=>{const open=nav.classList.toggle("open");menuBtn.setAttribute("aria-expanded",String(open));menuBtn.textContent=open?"×":"☰";});
+nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");menuBtn.setAttribute("aria-expanded","false");menuBtn.textContent="☰";}));
+document.querySelectorAll("[data-category],[data-product]").forEach(link=>link.addEventListener("click",()=>{const select=document.getElementById("interest");const wanted=link.dataset.category||link.dataset.product;const option=[...select.options].find(o=>o.text.toLowerCase()===wanted.toLowerCase());if(option)select.value=option.value;}));
+document.getElementById("enquiryForm").addEventListener("submit",e=>{e.preventDefault();const name=document.getElementById("customer").value.trim();const interest=document.getElementById("interest").value;const details=document.getElementById("details").value.trim();if(!name||!interest)return;document.getElementById("formNote").textContent="Thank you, "+name+". This is a concept preview only. No enquiry has been sent or stored. The finished site can route enquiries to Howard's approved contact channel.";});
